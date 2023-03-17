@@ -10,11 +10,11 @@ package com.mycompany.polimorfismocal;
  */
 
     public interface InterfazCalculadora {
-    public int sumar(int a, int b);
-    public int restar(int a, int b);
-    public int multiplicar(int a, int b);
-    public int dividir(int a, int b);
-    public double calcularRaizCuadrada(int a);
+    public int sumar(int num1, int num2);
+    public int restar(int num1, int num2);
+    public int multiplicar(int num1, int num2);
+    public int dividir(int num1, int num2);
+    public double calcularRaizCuadrada(int num1);
 }
 
 
